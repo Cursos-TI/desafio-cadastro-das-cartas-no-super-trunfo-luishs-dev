@@ -35,7 +35,11 @@ float area2;
 float pib2;
 int pontos_turisticos2;
 
+printf("DESAFIO SUPER TRUNFO - NIVEL NOVATO\n");
+printf("\n");
+
 printf("ENTRADA DE DADOS DA CARTA NR. 1 \n");
+printf("\n");
 printf("Entre com o Estado: ");
 scanf("%s", estado1 );
 
@@ -57,7 +61,9 @@ scanf("%f", &pib1 );
 printf("Entre com o nr. de pontos turísticos: ");
 scanf("%i", &pontos_turisticos1 );
 
-printf("ENTRADA DA CARTA NR 2 \n");
+printf("\n");
+printf("ENTRADA DE DADOS DA CARTA NR 2 \n");
+printf("\n");
 
 printf("Entre com o Estado: ");
 scanf("%s", estado2 );
@@ -79,16 +85,17 @@ scanf("%f", &pib2);
 
 printf("Entre com o nr. de pontos turísticos: ");
 scanf("%i", &pontos_turisticos2);
+printf("\n");
+printf("\n Dados da carta 1: \n");
 
-printf("\n Daods da carta 1: \n");
-
-printf("Estado: %s | Cod da Carta: %s | Cidade: %s", estado1, cod_carta1, cidade1);
-printf("\n População: %i | Área: %.2f | PIB: %.2f | Nr. Pontos Turisticos: %i \n", populacao1, area1, pib1, pontos_turisticos1);
-
+printf("Estado: %s | Cod da Carta: %s | Cidade: %s\n", estado1, cod_carta1, cidade1);
+printf("População: %i | Área: %.2f | PIB: %.2f | Nr. Pontos Turisticos: %i \n", populacao1, area1, pib1, pontos_turisticos1);
+printf("\n");
 
 printf("\n Dados da carta 2: \n");
-printf("Estado: %s | Cod da Carta: %s | Cidade: %s", estado2, cod_carta2, cidade2);
-printf("\n População: %i | Área: %.2f | PIB: %.2f | Nr. Pontos Turisticos: %i \n", populacao2, area2, pib2, pontos_turisticos2);
+printf("Estado: %s | Cod da Carta: %s | Cidade: %s\n", estado2, cod_carta2, cidade2);
+printf("População: %i | Área: %.2f | PIB: %.2f | Nr. Pontos Turisticos: %i \n", populacao2, area2, pib2, pontos_turisticos2);
+printf("\n");
 
 
 
